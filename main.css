@@ -20,14 +20,6 @@ header {
     position: relative;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    margin: auto;
-}
-
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
@@ -36,6 +28,16 @@ nav {
     color: white;
     cursor: pointer;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
 
 .nav-links {
     list-style: none;
@@ -106,6 +108,9 @@ nav {
     border-radius: 10px;
 }
 
+
+
+
 footer {
     background: #333;
     color: white;
@@ -123,6 +128,11 @@ footer {
 .footer-content ul {
     list-style: none;
 }
+
+.footer-content ul li {
+    margin-bottom: 10px; 
+}
+
 
 .footer-content ul li a {
     color: white;
@@ -184,4 +194,41 @@ footer {
 
 .sct1 {
     margin-bottom: 40px; 
+}
+
+.infrastructure {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    align-items: center; /* Vertically align items */
+    gap: 20px;
+    padding: 20px;
+}
+
+.infrastructure img {
+    width: 100%; /* Ensure image scales inside the grid */
+}
+.simple-tooling {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    align-items: center; /* Vertically align items */
+    gap: 20px;
+    padding: 20px;
+}
+
+.simple-tooling img {
+    width: 100%; /* Ensure image scales properly */
+}
+.feature-text {
+    text-align: left; /* Align all text elements to the left */
+}
+
+.feature-text h3,
+.feature-text p {
+    text-align: left; /* Ensures individual elements stay aligned left */
+}
+.phone-rightsidetext,.desktop-rightsidetext{
+    text-align: left;
+}
+.footer-content{
+    
 }
