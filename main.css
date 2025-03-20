@@ -18,6 +18,7 @@ header {
     color: white;
     padding: 2rem;
     position: relative;
+    border-radius: 0 0 0 70px;
 }
 
 .menu-toggle {
@@ -233,8 +234,11 @@ footer {
     
 }
 
-header, 
+
+
+
 #infrastructure {
+    color: ;
     background-color:hsl(240, 10%, 16%);
     border-radius: 0 0 0 70px;/* Adjust the value as needed */
     padding: 20px; /* Ensures proper spacing inside the section */
