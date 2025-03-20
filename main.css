@@ -64,7 +64,7 @@ nav {
     display: inline-block;
     padding: 0.75rem 1.5rem;
     margin: 0.5rem;
-    border-radius: 5px;
+    border-radius: 20px;
     text-decoration: none;
     color: white;
     background: #ff5e62;
@@ -231,4 +231,36 @@ footer {
 }
 .footer-content{
     
+}
+
+header, 
+#infrastructure {
+    background-color:hsl(240, 10%, 16%);
+    border-radius: 0 0 0 70px;/* Adjust the value as needed */
+    padding: 20px; /* Ensures proper spacing inside the section */
+    color: white; /* Ensures text is readable */
+    background-image: url('./images/bg-pattern-circles.svg'); /* Replace with your actual image path */
+    background-size: 60%; /* Ensures the image covers the entire section */
+    background-position:left -20% top -50px;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 50px 0; /* Adds padding for better spacing */
+    border-bottom-left-radius: 50px
+}
+
+header .hero {
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+#infrastructure img {
+    border-radius: 20px; /* Ensures images match the curved look */
+}
+
+#infrastructure .phone-rightsidetext {
+    color: white; /* Improves readability */
+}
+
+.hero h2,p,a{
+  margin-bottom: 1.5em;
 }
