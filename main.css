@@ -113,7 +113,7 @@ nav {
 
 
 footer {
-    background: #333;
+    background: hsl(240, 10%, 16%);
     color: white;
     padding: 2rem;
 }
@@ -238,7 +238,6 @@ footer {
 
 
 #infrastructure {
-    color: ;
     background-color:hsl(240, 10%, 16%);
     border-radius: 0 0 0 70px;/* Adjust the value as needed */
     padding: 20px; /* Ensures proper spacing inside the section */
@@ -268,3 +267,7 @@ header .hero {
 .hero h2,p,a{
   margin-bottom: 1.5em;
 }
+
+h3 p{
+    color: hsl(208, 49%, 24%)
+};
