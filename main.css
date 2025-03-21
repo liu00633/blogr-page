@@ -68,7 +68,9 @@ nav {
     text-decoration: none;
     color: white;
     background: #ff5e62;
-    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn.primary {
@@ -77,8 +79,17 @@ nav {
 }
 
 .btn:hover {
-    opacity: 0.8;
+    background: #e0464f; /* Darker shade for better visibility */
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    opacity: 1;
 }
+
+.btn.primary:hover {
+    background: #ffebeb; /* Light pinkish hover for contrast */
+    color: #ff5e62;
+}
+
 
 .features, .infrastructure, .simple-tooling {
     padding: 4rem 2rem;
